@@ -9,7 +9,7 @@ export PATH="/usr/local/share/npm/bin:/usr/local/bin:/Applications/android-sdk/t
 # * ~/.extra can be used for other settings you don’t want to commit.
 #for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 	#RL removed custom bash_prompt and functions
-for file in ~/.{path,exports,aliases,extra}; do
+for file in ~/.{path,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
