@@ -1,6 +1,7 @@
 # TODO grab coloredlogcat from git too
 alias clogcat='python ~/Dropbox/Scripts/coloredlogcat.py'
 alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+alias gitresethard='git fetch --all; git reset --hard origin/master'
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 #alias ..="cd .."
