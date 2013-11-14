@@ -34,9 +34,7 @@ brew install bash
 
 # Install other useful binaries
 brew install ack
-#brew install exiv2
 brew install git
-#brew install imagemagick
 brew install lynx
 brew install node
 #brew install pigz
@@ -61,21 +59,28 @@ function installcask() {
 	fi
 }
 
+installcask alfred
+installcask bartender
 installcask dropbox
+installcask evernote
+installcask fantastical
+installcask firefox
 installcask google-chrome
-#installcask google-chrome-canary
-#installcask imagealpha
-#installcask imageoptim
-#installcask iterm2
-#installcask macvim
-#installcask miro-video-converter
+installcask google-drive
+installcask skype
+installcask spotify
+installcask steam
 installcask sublime-text
-#installcask the-unarchiver
-#installcask tor-browser
+installcask keka
+installcask transmit
+installcask virtualbox
+installcask sourcetree
+installcask sublime-text
 installcask transmission
-#installcask ukelele
 installcask virtualbox
 installcask vlc
+installcask twitter
+installcask cloak
 
 # Remove outdated versions from the cellar
 brew cleanup
