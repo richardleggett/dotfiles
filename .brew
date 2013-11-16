@@ -37,12 +37,10 @@ brew install ack
 brew install git
 brew install lynx
 brew install node
-#brew install pigz
-#brew install rename
-#brew install rhino
-#brew install tree
-#brew install webkit2png
-#brew install zopfli
+
+#configure git once installed
+git config --global user.name "Richard Leggett"
+git config --global user.email richard.leggett@gmail.com
 
 brew tap homebrew/versions
 brew install lua52
