@@ -378,6 +378,8 @@ chflags nohidden ~/Library
 # Top left screen corner → Mission Control
 #defaults write com.apple.dock wvous-tl-corner -int 2
 #defaults write com.apple.dock wvous-tl-modifier -int 0
+# Top right screen corner → Notification Centre
+defaults write com.apple.dock wvous-tr-corner -int 12
 # Bottom right screen corner → Desktop
 defaults write com.apple.dock wvous-br-corner -int 4
 #defaults write com.apple.dock wvous-br-modifier -int 0
@@ -414,9 +416,9 @@ defaults write com.apple.dock wvous-br-corner -int 4
 #defaults write com.apple.Safari ProxiesInBookmarksBar "()"
 
 # Enable the Develop menu and the Web Inspector in Safari
-#defaults write com.apple.Safari IncludeDevelopMenu -bool true
-#defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
-#defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
 # Add a context menu item for showing the Web Inspector in web views
 #defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
