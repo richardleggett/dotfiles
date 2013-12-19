@@ -1,7 +1,9 @@
 # Add `~/bin` to the `$PATH`
 #export PATH="$HOME/bin:$PATH"
 # RL: Add my common PATH requirements
-export PATH="/usr/local/share/npm/bin:/usr/local/bin:/Applications/android-sdk/tools:/Applications/android-sdk/platform-tools:$PATH"
+export PATH="/usr/local/share/npm/bin:/usr/local/bin:$PATH"
+export PATH="/Applications/android-sdk/tools:/Applications/android-sdk/platform-tools:$PATH"
+export PATH="/Applications/Postgres93.app/Contents/MacOS/bin/:$PATH"
 
 
 # Load the shell dotfiles, and then some:
