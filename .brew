@@ -50,11 +50,11 @@ brew tap phinze/homebrew-cask
 brew install brew-cask
 
 function installcask() {
-	if brew cask info "${@}" | grep "Not installed" > /dev/null; then
-		brew cask install "${@}"
-	else
-		echo "${@} is already installed."
-	fi
+    if brew cask info "${@}" | grep "Not installed" > /dev/null; then
+            brew cask install "${@}" --appdir="/Applications"
+    else
+            echo "${@} is already installed."
+    fi
 }
 
 installcask alfred
