@@ -37,6 +37,7 @@ brew install ack
 brew install git
 brew install lynx
 brew install node
+brew install mongodb
 
 #configure git once installed
 git config --global user.name "Richard Leggett"
@@ -57,19 +58,14 @@ function installcask() {
     fi
 }
 
-installcask alfred
 installcask bartender
 installcask dropbox
 installcask evernote
-installcask fantastical
-installcask firefox
 installcask google-chrome
 installcask google-drive
 installcask skype
 installcask spotify
 installcask steam
-installcask sublime-text
-installcask keka
 installcask transmit
 installcask virtualbox
 installcask sourcetree
