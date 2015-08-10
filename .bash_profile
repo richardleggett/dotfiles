@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-#export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 # RL: Add my common PATH requirements
 export PATH="/usr/local/share/npm/bin:/usr/local/bin:$PATH"
 export PATH="/Applications/android-sdk/tools:/Applications/android-sdk/platform-tools:$PATH"
